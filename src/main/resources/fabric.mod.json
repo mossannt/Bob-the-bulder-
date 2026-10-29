@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bobsc",
+  "version": "${version}",
+  "name": "Bob the Builder",
+  "description": "Bob the Builder - your Minecraft building buddy. Load a schematic, see it as a hologram, and let Bob build it block by block, dig areas, fetch materials and fly with elytra.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bobsc.BobscMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/bobsc/icon.png",
+  "authors": [
+    "mossa natite"
+  ]
+}
